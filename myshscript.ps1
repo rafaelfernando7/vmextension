@@ -4,7 +4,7 @@ cd C:\
 mkdir C:\feitopeloscript3
 
 cd C:\Windows\System32\Sysprep
-sysprep /oobe /generalize /shutdown /unattend:C:\unattend.xml
+c:\windows\system32\sysprep\sysprep.exe /oobe /generalize /shutdown /unattend:C:\unattend.xml
 Restart-computer
 
 Add-WindowsFeature Web-Server
